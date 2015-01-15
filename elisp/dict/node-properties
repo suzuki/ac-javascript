@@ -1,0 +1,16 @@
+attributes
+childNodes
+firstChild
+lastChild
+localName
+namespaceURI
+nextSibling
+nodeName
+nodePrincipal
+nodeType
+nodeValue
+ownerDocument
+parentNode
+prefix
+previousSibling
+textContent
