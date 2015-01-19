@@ -1,3 +1,16 @@
+;;; ac-javascript.el -- JavaScript keyword for auto-complete-mode
+;; -*- Mode: Emacs-Lisp -*-
+
+;; Copyright 2014 Norio Suzuki
+
+;; Version: 0.0.1
+;; Author: Norio Suzuki <norio.suzuki@gmail.com>
+;; URL: https://github.com/suzuki/ac-javascript
+;; Keywords: auto-complete, javascript
+;; Package-Requires: ((auto-complete "1.4.0"))
+
+;;; Code:
+
 ;; ac-javascript
 (require 'auto-complete)
 
@@ -100,3 +113,5 @@
 	))
 
 (add-hook 'js3-mode-hook 'ac-javascript-mode-setup)
+
+;;; ac-javascript.el ends here
